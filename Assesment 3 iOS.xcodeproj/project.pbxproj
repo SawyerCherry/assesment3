@@ -12,6 +12,8 @@
 		F206F6F321834CA500DB9E6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F206F6F121834CA500DB9E6E /* Main.storyboard */; };
 		F206F6F521834CA600DB9E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F206F6F421834CA600DB9E6E /* Assets.xcassets */; };
 		F206F6F821834CA600DB9E6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F206F6F621834CA600DB9E6E /* LaunchScreen.storyboard */; };
+		F208BDC7218A27ED00A0FBB1 /* personClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F208BDC6218A27ED00A0FBB1 /* personClass.swift */; };
+		F208BDC9218A296300A0FBB1 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F208BDC8218A296300A0FBB1 /* PersonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F206F6F421834CA600DB9E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F206F6F721834CA600DB9E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F206F6F921834CA600DB9E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F208BDC6218A27ED00A0FBB1 /* personClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personClass.swift; sourceTree = "<group>"; };
+		F208BDC8218A296300A0FBB1 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				F206F6EC21834CA500DB9E6E /* Assesment 3 iOS */,
-				F206F6EB21834CA500DB9E6E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +52,7 @@
 				F206F6EA21834CA500DB9E6E /* Assesment 3 iOS.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		F206F6EC21834CA500DB9E6E /* Assesment 3 iOS */ = {
@@ -60,6 +64,9 @@
 				F206F6F421834CA600DB9E6E /* Assets.xcassets */,
 				F206F6F621834CA600DB9E6E /* LaunchScreen.storyboard */,
 				F206F6F921834CA600DB9E6E /* Info.plist */,
+				F208BDC6218A27ED00A0FBB1 /* personClass.swift */,
+				F208BDC8218A296300A0FBB1 /* PersonTableViewCell.swift */,
+				F206F6EB21834CA500DB9E6E /* Products */,
 			);
 			path = "Assesment 3 iOS";
 			sourceTree = "<group>";
@@ -136,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F206F6F021834CA500DB9E6E /* ViewController.swift in Sources */,
+				F208BDC7218A27ED00A0FBB1 /* personClass.swift in Sources */,
+				F208BDC9218A296300A0FBB1 /* PersonTableViewCell.swift in Sources */,
 				F206F6EE21834CA500DB9E6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
